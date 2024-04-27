@@ -1,0 +1,20 @@
+{
+  "name": "file-server",
+  "version": "1.0.0",
+  "description": "Custom file server microservice to host media files for v2.0 using Node.js, Docker, and Ngrok",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "multiparty": "^4.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
